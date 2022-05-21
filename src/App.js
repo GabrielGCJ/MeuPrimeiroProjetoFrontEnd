@@ -7,15 +7,43 @@ import styled from "styled-components";
 import './style.css'
 import Header from "./components/header";
 
- const DivGlobal = styled.div`
-  background-color: #3299a8 ;
-  color: black;
-  margin: auto;
-  width: 50%;
-  border-radius: 10%;
+const DivGlobal = styled.div`
+display: flex;
+justify-content:center ;
+align-items: center;
+
+
+  @media screen and ( min-device-width : 10px ) and (max-device-width : 249px) {
+    background-color: rgba(251,115,92, 0.3);
+    background-repeat: no-repeat;
+    color: black;
+    margin: auto;
+    width: 90%;
+    border-radius: 10%;
+  } 
+
+  @media screen and ( min-device-width : 250px ) and (max-device-width : 480px) { 
+    /* background-color: rgba(251,115,92, 0.3); */
+    background-color: purple;
+    background-repeat: no-repeat;
+    color: black;
+    margin: auto;
+    width: 70%;
+    border-radius: 100%;  
+     ;
+  }
+
+
+  @media screen and (min-device-width : 481px) and (max-device-width : 2000px) { 
+    /* background-image: url(""); */
+    background-color: rgba(251,115,92, 0.3);
+    background-repeat: no-repeat;
+    color: black;
+    margin: auto;
+    width: 50%;
+    border-radius: 10%;
+  }
 `
-
-
 
 const App = () => {
 
@@ -176,7 +204,7 @@ const limpar = () => {
     <div>
       <Header/>
     <DivGlobal>
-      <h3>ASTROMATCH</h3>
+      {/* <h3>ASTROMATCH</h3> */}
       {/* <button onClick={trocaTela}>Trocar Tela</button> */}
 
       {/* <button onClick={vaiPaginaMatch}>Tela Match</button>

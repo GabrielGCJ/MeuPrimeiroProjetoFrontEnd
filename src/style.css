@@ -4,11 +4,10 @@
 }
 
 body{
-background-image: url("https://p4.wallpaperbetter.com/wallpaper/944/180/840/black-texture-background-abstract-black-illustration-wallpaper-preview.jpg");
+background-color: #ffe3b3;
+
+    /* background-image: url("https://p4.wallpaperbetter.com/wallpaper/944/180/840/black-texture-background-abstract-black-illustration-wallpaper-preview.jpg"); */
 background-repeat: no-repeat;
 background-size: cover;
-text-align: center;
-
-
-
-}
+text-align: center; 
+ }
