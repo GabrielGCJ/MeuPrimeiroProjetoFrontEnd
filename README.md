@@ -1,6 +1,8 @@
 <h1 color="red">🔥 Astromath 🔥</h1>
   
 <h2>Como um desafio, me incentivaram a pegar meu primeiro projeto de front-end e reestilizalo ajustando seus erros no periodo de 3 horas com o conhecimento que adiquiri desde então.</h2>
+
+<h3> O objetivo da aplicação é ser um clone do aplicativo Tinder </h3>
   
 <h3>Antes: </h3>
 
