@@ -13,6 +13,7 @@ justify-content:center ;
 align-items: center;
 
 
+
   @media screen and ( min-device-width : 10px ) and (max-device-width : 249px) {
     background-color: rgba(251,115,92, 0.3);
     background-repeat: no-repeat;
@@ -23,13 +24,13 @@ align-items: center;
   } 
 
   @media screen and ( min-device-width : 250px ) and (max-device-width : 480px) { 
-    /* background-color: rgba(251,115,92, 0.3); */
-    background-color: purple;
+    background-color: rgba(251,115,92, 0.3);
+    /* background-color: purple; */
     background-repeat: no-repeat;
     color: black;
     margin: auto;
     width: 70%;
-    border-radius: 100%;  
+    border-radius: 10%;  
      ;
   }
 
@@ -57,7 +58,6 @@ const App = () => {
 
   const [actualPerfil, setActualPerfil] = useState([])
   const [matchesList, setMatchesList] = useState([])
-
 
   const escolherTela = () => {
     switch (telaAtual){
@@ -108,9 +108,9 @@ const App = () => {
     getPerfilUsuario()
   }
 
-  const vaiPaginaMusicas = () => {
-    setTelaAtual("apreTelaMusica")
-  }
+  // const vaiPaginaMusicas = () => {
+  //   setTelaAtual("apreTelaMusica")
+  // }
 
 
 
@@ -140,7 +140,7 @@ const App = () => {
 
     }).catch((err) => {
       console.log(err.response)
-      alert("Mano, deu Rum !!!")
+      // alert("Mano, deu Rum !!!(getPerfilUsuario)")
     })
 }
 
@@ -155,7 +155,7 @@ const getMatchs = () => {
       setMatchesList(res.data.matches)
     }).catch((err) => {
       console.log(err.response)
-      alert("Mano, deu Rum !!!")
+      // alert("Mano, deu Rum !!! (getMatch)")
     })
 }
 
@@ -171,7 +171,8 @@ const choosePerson = (choice) => {
     .then((resp) => {
       console.log(resp.data.isMatch)  //deixei por cause de poder hackiar a outra resposta true/false
       if(resp.data.isMatch){
-        window.alert("Ae sim, alguem te quer !!!")
+        window.alert("Alguem deu match com você 😍")
+        
       }
       getPerfilUsuario()
     }).catch((error) => {
@@ -189,9 +190,7 @@ const limpar = () => {
       headers: { Authorization: `${autorizationName}`}
     }).then((res) => {
     
-      setMatchesList([])
-
-      
+      setMatchesList([])      
 
     }).catch((err) => {
       console.log(err.response)
