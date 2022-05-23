@@ -2,11 +2,10 @@
   
 <h2>Como um desafio, me incentivaram a pegar meu primeiro projeto de front-end e reestilizalo ajustando seus erros no periodo de 3 horas com o conhecimento que adiquiri desde então.</h2>
 
-</br>
 
-<h4> O objetivo da aplicação é ser um clone do aplicativo Tinder </h4>
+<h2> O objetivo da aplicação é ser um clone do aplicativo Tinder </h4>
 
- </br>
+ 
  
 <h3>Antes: </h3>
 
