@@ -1,9 +1,9 @@
 <h1 color="red">🔥 Astromath 🔥</h1>
   
-<p>Como um desafio, me incentivaram a pegar meu primeiro projeto de front-end e reestilizalo ajustando seus erros no periodo de 3 horas com o conhecimento que adiquiri desde então.</p>
+<h2>Como um desafio, me incentivaram a pegar meu primeiro projeto de front-end e reestilizalo ajustando seus erros no periodo de 3 horas com o conhecimento que adiquiri desde então.</h2>
 
 <br/>
-<p> O objetivo da aplicação é ser um clone do aplicativo Tinder </p>
+<h4> O objetivo da aplicação é ser um clone do aplicativo Tinder </h4>
  <br/>
 <h3>Antes: </h3>
 
@@ -12,7 +12,7 @@
 ![Captura de tela 2022-05-20 204347](https://user-images.githubusercontent.com/91347602/169742429-96f2885e-0427-44a4-8234-3d6425907b91.png)
 
 
-<p>Depois: </p>
+<h3>Depois: </h3>
 
 <a href=https://lnkd.in/eWkR5csN>https://lnkd.in/eWkR5csN</a>
 
